@@ -11,7 +11,7 @@ taskbar.addEventListener("click", () => {
     }
 })
 
-if (screen.width >= 1100) {
+if (screen.width <= 1200) {
     console.log('hi')
     document.querySelector('Body').innerHTML = '';
     var tag = document.createElement("h1");
