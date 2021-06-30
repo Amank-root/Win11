@@ -321,7 +321,7 @@ video {
     background: aliceblue;
     height: 100vh;
     display: flex;
-    padding: 1.5rem;
+    padding: 1rem;
     width: 100%;
     justify-content: center;
     align-items: center;
