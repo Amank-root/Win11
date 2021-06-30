@@ -25,3 +25,6 @@ if (screen.width <= 1100) {
     gat.appendChild(textg);
     document.querySelector('Body').appendChild(tag).appendChild(gat);
 }
+else {
+    console.log('Working')
+}
