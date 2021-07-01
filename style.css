@@ -296,7 +296,7 @@ video {
     }
 }
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .hero, .load{
         display: none;
     }
@@ -312,7 +312,7 @@ video {
         overflow: hidden;
     }
 
-} */
+} 
 
 .Hell {
     font-size: 3.5rem;
