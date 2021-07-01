@@ -253,7 +253,7 @@ video {
     height: 100vh;
     width: 100%;
     display: flex;
-    background: url(./img/bg.jpg) center center no-repeat;
+    background: url('./img/bg.jpg') center center no-repeat;
     background-size: cover;
     animation: dol 3s linear 2s;
 }
