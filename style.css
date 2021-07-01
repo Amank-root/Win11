@@ -95,12 +95,15 @@ body{
 .under {
     padding: 1.8rem 2rem 0;
     width: 100%;
-    height: calc(100% - 4.5%);
+    height: calc(100% - 5.5%);
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
+    overflow: hidden;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    object-fit: cover;
+    align-content: center;
 }
 
 .sec1 {
@@ -210,7 +213,7 @@ body{
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 0 1rem;
+    padding: 0 1rem 0.6rem;
     height: 8vh;
     border-top: 2px solid;
 }
