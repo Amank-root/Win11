@@ -16,7 +16,7 @@ let namee = document.getElementById("namee");
 let sooo = document.getElementById('sooo');
 
 
-if (provided === "") {
+if (provided === '' || null) {
     namee.href = "https://www.instagram.com/amankushwaha_28/"
     sooo.href = "https://www.instagram.com/amankushwaha_28/"
     provided = "Aman Kushwaha"
