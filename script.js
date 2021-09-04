@@ -10,16 +10,13 @@ taskbar.addEventListener("click", () => {
         startmenu.style.bottom = "50px"
     }
 })
-if (screen.width >= 1201) { 
+
     let somt = alert("You can Provide Your Details Here Without Any Hesitation Because This Site Is Static. \n In Short Does not Save Any Data.");
     let provided = prompt("Enter Your name Here.");
     let namee = document.getElementById("namee");
     let sooo = document.getElementById('sooo');
-}else {
-    console.log("Update Will Never Come")
-}
 
-if (provided === '' || null) {
+if (provided == '' || null) {
     namee.href = "https://www.instagram.com/amankushwaha_28/"
     sooo.href = "https://www.instagram.com/amankushwaha_28/"
     provided = "Aman Kushwaha"
@@ -63,7 +60,7 @@ if (screen.width <= 700) {
     var tag = document.createElement("h1");
     var gat = document.createElement("p");
     tag.setAttribute("class", "Hell");
-    var text = document.createTextNode("This Web Page Is Not Yet Supported On Small Scale Devices.");
+    var text = document.createTextNode(`Sorry ${provided}. This Web Page Is Not Yet Supported On Small Scale Devices.`);
     var textg = document.createTextNode("Soon We Will Update The Page.");
     gat.setAttribute("class", "para");
     document.querySelector('Body').setAttribute("class", "main");
