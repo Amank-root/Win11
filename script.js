@@ -13,11 +13,11 @@ taskbar.addEventListener("click", () => {
 if (screen.width <= 700){
     let somt = alert("You can Provide Your Details Here Without Any Hesitation Because This Site Is Static. \n In Short Does not Save Any Data.");
     let provided = prompt("Enter Your name Here.");
-    let namee = document.getElementById("namee");
-    let sooo = document.getElementById('sooo');
 }
+let namee = document.getElementById("namee");
+let sooo = document.getElementById('sooo');
 
-if (provided == '' || provided == null) {
+if (provided == '' || provided == null || provided == undefined) {
     namee.href = "https://www.instagram.com/amankushwaha_28/"
     sooo.href = "https://www.instagram.com/amankushwaha_28/"
     provided = "Aman Kushwaha"
